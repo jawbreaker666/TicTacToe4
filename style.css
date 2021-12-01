@@ -12,6 +12,11 @@ td{
     width: 133px;
     height: 133px;
     border: 5px solid black;
+    cursor:pointer;
+}
+
+td:hover{
+    background-color:rgb(247, 247, 157);
 }
 
 tr:first-child td{
@@ -38,4 +43,8 @@ table tr td:last-child{
     left: 26px;
     right: 26px;
     top: 26px;
+}
+
+.d-none{
+    display: none;
 }
